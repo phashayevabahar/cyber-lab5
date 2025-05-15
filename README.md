@@ -11,43 +11,43 @@ In this repository, we will do some scanning operations, exploiting a vulnerable
 
 **Step 1: Host Discovery & Scanning**
 We firstly find the target ip.  
-![ifconfig](configuration.png)  
+![ifconfig](images/configuration.png)  
 We check the open ports and service versions.  
-![sv](sv-scan.png)  
+![sv](images/sv-scan.png)  
 **Step 2: Exploiting**
 We cause to start Metasploit in Kali Linux.  
-![metasploit](metasploit.png)  
+![metasploit](images/metasploit.png)  
 We find weak service.  
-![weak](vsftpd.png)  
-![weak](options.png)  
-![exploiting](exploit.png)  
+![weak](images/vsftpd.png)  
+![weak](images/options.png)  
+![exploiting](images/exploit.png)  
 We get shell.  
-![shell](shell.png)  
+![shell](images/shell.png)  
 **Step 3: Post-exploitation**  
 We look at to users.  
-![users](users.png)  
+![users](images/users.png)  
 Configuration the network:  
-![configure](configuration.png)  
+![configure](images/configuration.png)  
 We look through some files.  
-![look](find.png)  
+![look](images/find.png)  
 **Step 4: Privilege Escalation**  
 Avtomatic checking  
-![avtomatic](avtomatik_yoxlama.png)  
+![avtomatic](images/avtomatik_yoxlama.png)  
 Suid files
-![suid](suid-files.png)  
+![suid](images/suid-files.png)  
 We use exploit  
-![exploit](dirty_cow.png)  
+![exploit](images/dirty_cow.png)  
 **Step 5: Persistence**
 Adding user  
-![user](new-user.png)  
+![user](images/new-user.png)  
 Entrancing with ssh  
-![ssh](ssh.png)  
+![ssh](images/ssh.png)  
 **Step 6: Cover Tracks**  
 Deleting bash history  
-![deleting](deleting.png)  
+![deleting](images/deleting.png)  
 Deleting the log files  
-![logs](deleting_logs.png)  
+![logs](images/deleting_logs.png)  
 Changing the date  
-![date](date.png)
+![date](images/date.png)
 
 
