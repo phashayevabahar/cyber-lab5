@@ -9,12 +9,12 @@ In this repository, we will do some scanning operations, exploiting a vulnerable
 
 ## Basic system hacking  
 
-**Step 1: Host Discovery & Scanning**
+**Step 1: Host Discovery & Scanning**  
 We firstly find the target ip.  
 ![ifconfig](images/configuration.png)  
 We check the open ports and service versions.  
 ![sv](images/sv-scan.png)  
-**Step 2: Exploiting**
+**Step 2: Exploiting**  
 We cause to start Metasploit in Kali Linux.  
 ![metasploit](images/metasploit.png)  
 We find weak service.  
@@ -33,11 +33,11 @@ We look through some files.
 **Step 4: Privilege Escalation**  
 Avtomatic checking  
 ![avtomatic](images/avtomatik_yoxlama.png)  
-Suid files
+Suid files  
 ![suid](images/suid-files.png)  
 We use exploit  
 ![exploit](images/dirty_cow.png)  
-**Step 5: Persistence**
+**Step 5: Persistence**  
 Adding user  
 ![user](images/new-user.png)  
 Entrancing with ssh  
@@ -48,6 +48,6 @@ Deleting bash history
 Deleting the log files  
 ![logs](images/deleting_logs.png)  
 Changing the date  
-![date](images/date.png)
+![date](images/date.png)  
 
 
